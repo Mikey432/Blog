@@ -1,0 +1,61 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 55vw;
+    margin: auto;
+  }
+
+  .blogh3{
+    cursor: pointer;
+    color: black;
+    margin-bottom: 3px;
+  }
+
+  .blogh3:hover{
+    color: purple;
+  }
+
+  .para{
+    padding: 0rem 20rem;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blogp{
+    max-width: 45vw;
+    margin: 5px 0px;
+  }
+
+  .btn {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    margin-top: 8px;
+    padding: 4px 10px;
+    font-size: 11px;
+  }
+
+  .h3{
+    margin-bottom: 5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .blogp{
+      max-width: 65vw;
+      margin: 5px 0px;
+    }
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 88vw;
+      margin: auto;
+    }
+  
+  }
